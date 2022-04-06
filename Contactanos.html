@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagenessw/r2d2.ico">
+    <title>Femafris-Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar__box-nosotros">
+            <div>
+                <a href="index.html"><img class="navbar__image-nosotros" src="imagenessw/rebel.png" ></a>
+            </div>
+            <ul>
+                <li class="navbar__link-index"><a href="Sobre nosotros.html">Sobre nosotros</a></li>
+                <li class="navbar__link-index"><a href="Eventos.html">Eventos</a></li>
+                <li class="navbar__link-index"><a href="Inside deco.html">inside Deco</a></li>
+                <li class="navbar__link-index"><a href="Contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form1" method="post" action="enviar.php">
+            <div class="mb-3">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" name="nombre" class="form-control" required>
+            </div>    
+            <div class="mb-3">    
+                <label for="edad" class="form-label">Edad</label>
+                <input type="number" placeholder="Ingrese su edad" name="edad" class="form-control" required>
+            </div>
+            <div class="mb-3">    
+                <label for="comentario" class="form-label">Comentario</label> 
+                <input type="area" placeholder="Ingrese un comentario" name="comentario" class="form-control" required>
+            </div>
+        </form>
+    </main>
+</body>

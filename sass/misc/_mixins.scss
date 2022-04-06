@@ -1,0 +1,5 @@
+@mixin styleus ($argumento1, $argumento2, $argumento3) {
+    color: $argumento1;
+    font-size: $argumento2;
+    padding: $argumento3;
+}

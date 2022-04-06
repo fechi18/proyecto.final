@@ -1,0 +1,21 @@
+* {
+    margin: none;
+    padding: none;
+    list-style: none;
+    text-decoration: none
+}
+
+@font-face {
+    font-family: StarWars;
+    src: url(../../FuentesSW/starjedi/Starjedi.ttf);    
+}
+
+@font-face {
+    font-family: ubumono;
+    src: url(../../FuentesSW/UbuntuMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../../FuentesSW/Nunito-Italic-VariableFont_wght.ttf);
+}
